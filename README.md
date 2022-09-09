@@ -2,11 +2,19 @@ Micronaut microservice
 =
 This project is a Micronaut framework based, 'ready-to-play' micro-service.
 
+## Technical information
+
 | Name      | Version |
 |-----------|---------|
 | Java      | 17      |
 | Maven     | 3.8.1+  |
 | Micronaut | 3.6.2   |
+
+## GraalVM build
+
+```
+mvn clean package -Pgraalvm -Dpackaging=native-image -e -X
+```
 
 ---
 
