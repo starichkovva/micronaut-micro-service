@@ -2,6 +2,28 @@ micronaut:
   application:
     name: micronautMicroService
 
+datasources:
+  default:
+    url: jdbc:mysql://${database.host:localhost}:${database.port:3306}/${database.schema:micro_shop}
+    username: ${database.username}
+    password: ${database.password}
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+flyway:
+  datasources:
+    default:
+      enabled: true
+
+jpa:
+  default:
+    entity-scan:
+      packages: 'com.templatetasks.java.micronaut.data.model'
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: none
+        show_sql: true
+
 netty:
   default:
     allocator:
