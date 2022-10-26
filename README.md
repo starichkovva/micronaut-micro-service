@@ -8,7 +8,7 @@ This project is a Micronaut framework based, 'ready-to-play' micro-service.
 |-----------|---------|
 | Java      | 17      |
 | Maven     | 3.8.1+  |
-| Micronaut | 3.6.4   |
+| Micronaut | 3.7.2   |
 
 ## GraalVM build
 
@@ -18,11 +18,12 @@ mvn clean package -Pgraalvm -Dpackaging=native-image -e -X
 
 ---
 
-## Micronaut 3.6.4 Documentation
+## Micronaut
 
-- [User Guide](https://docs.micronaut.io/3.6.4/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.6.4/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.6.4/guide/configurationreference.html)
+- [Releases](https://github.com/micronaut-projects/micronaut-core/releases)
+- [User Guide](https://docs.micronaut.io/latest/guide/index.html)
+- [API Reference](https://docs.micronaut.io/latest/api/index.html)
+- [Configuration Reference](https://docs.micronaut.io/latest/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
 
 ---
