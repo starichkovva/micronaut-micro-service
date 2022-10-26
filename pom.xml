@@ -20,6 +20,9 @@
         <micronaut.version>3.7.2</micronaut.version>
         <micronaut.runtime>netty</micronaut.runtime>
         <exec.mainClass>com.templatetasks.java.micronaut.MicronautApplication</exec.mainClass>
+
+        <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
+        <jacoco.maven.plugin.version>0.8.8</jacoco.maven.plugin.version>
     </properties>
 
     <dependencies>
@@ -103,6 +106,32 @@
                         <arg>-Amicronaut.processing.module=micronaut-micro-service</arg>
                     </compilerArgs>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven.surefire.plugin.version}</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${jacoco.maven.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

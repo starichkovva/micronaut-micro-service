@@ -1,3 +1,6 @@
+[![codecov](https://img.shields.io/codecov/c/github/starichkovva/micronaut-micro-service?style=for-the-badge)](https://app.codecov.io/github/starichkovva/micronaut-micro-service)
+[![GitHub license](https://img.shields.io/github/license/starichkovva/micronaut-micro-service?style=for-the-badge)](https://github.com/starichkovva/micronaut-micro-service/blob/master/LICENSE.md)
+
 Micronaut microservice
 =
 This project is a Micronaut framework based, 'ready-to-play' micro-service.
@@ -32,4 +35,6 @@ mvn clean package -Pgraalvm -Dpackaging=native-image -e -X
 
 - [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
 
+## License
 
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
