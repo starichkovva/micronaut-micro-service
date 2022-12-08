@@ -27,7 +27,7 @@
     <scm>
         <connection>scm:git:git://github.com/starichkovva/micronaut-micro-service.git</connection>
         <developerConnection>scm:git:ssh://github.com:starichkovva/micronaut-micro-service.git</developerConnection>
-        <url>https://github.com/starichkovva/micronaut-micro-service/tree/master</url>
+        <url>https://github.com/starichkovva/micronaut-micro-service</url>
     </scm>
 
     <developers>
