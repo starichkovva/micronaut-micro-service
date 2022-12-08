@@ -13,6 +13,38 @@
         <version>3.7.4</version>
     </parent>
 
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Micronaut sample microservice service with multiple features available</description>
+    <url>https://github.com/starichkovva/micronaut-micro-service</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/starichkovva/micronaut-micro-service.git</connection>
+        <developerConnection>scm:git:ssh://github.com:starichkovva/micronaut-micro-service.git</developerConnection>
+        <url>https://github.com/starichkovva/micronaut-micro-service/tree/master</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Vadim Starichkov</name>
+            <email>starichkovva@gmail.com</email>
+            <url>https://www.templatetasks.com</url>
+            <organization>Template Tasks</organization>
+            <organizationUrl>https://www.templatetasks.com</organizationUrl>
+            <timezone>2</timezone>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
     <properties>
         <packaging>jar</packaging>
         <jdk.version>17</jdk.version>
