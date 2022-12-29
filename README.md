@@ -1,5 +1,5 @@
 [![codecov](https://img.shields.io/codecov/c/github/starichkovva/micronaut-micro-service?style=for-the-badge)](https://app.codecov.io/github/starichkovva/micronaut-micro-service)
-[![GitHub license](https://img.shields.io/github/license/starichkovva/micronaut-micro-service?style=for-the-badge)](https://github.com/starichkovva/micronaut-micro-service/blob/master/LICENSE.md)
+[![GitHub license](https://img.shields.io/github/license/starichkovva/micronaut-micro-service?style=for-the-badge)](https://github.com/starichkovva/micronaut-micro-service/blob/main/LICENSE.md)
 
 Micronaut microservice
 =
